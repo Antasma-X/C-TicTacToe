@@ -1,2 +1,3 @@
 # C-TicTacToe
-Enter number to put position
+Enter number(1-9) to put position
+There are 2 players
