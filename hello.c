@@ -32,7 +32,7 @@ int inputSymbol(char board[],int pno)
     printf("player %d enter position: ",pno);
     scanf("%i",&temp);
     temp--;
-    if(temp>=9 || temp<1)
+    if(temp>=9 || temp<0)
     {
         printf("please enter 1-9\n");
         temp = inputSymbol(board,pno);
